@@ -1,0 +1,41 @@
+# **Flow Control**
+## - Conditional Flow
+  - *Conditionals*
+    - a fork defined by a combination of `if` statements and comparison and logical operators (`<`, `>`, `<=`, `>=`, `==`, `!=`, `&&`, `||`)
+    - these are basic logical structures defined in the words `if`, `else`, `elsif`, and `end`
+    - [conditional.rb](conditional.rb)
+      - uses `gets` to get an input from the user, `chomp` to get rid of new line from enter, `to_i` to turn the string into an integer
+      - we test it by entering 3, 4, and then some other number to see the different forks.
+    - Ruby allows you to append the `if` or `unless` conditions at the very end
+      - `puts "x is 3" if x == 3`
+      - `puts "x is NOT 3" unless x == 3`
+  - *Comparisons*
+    - always return a boolean value `true` or `false`
+    - logical operators are useful here
+    - remember if the data types don't match we'll get `false`
+      - i.e. `"4"` is different from the integer `4`
+  - *Combinging Expressions*
+    - `&&`, `||` and `!` are `and`, `or` and `not` respectively
+    - allow for combining multiple conditional statements
+    - parentheses are useful here both for comprehension and order of operations by the computer (which uses normal algebraic order)
+    - *order of precedence* to evaluate multiple expressions
+      - `<=`, `<`, `>`, `>=` - Comparison
+      - `==`, `!=` -  Equality
+      - `&&` - Logical AND
+      - `||` - Logical OR
+  - *Ternary Operator*
+    - a common Ruby idiom that makes a quick `if/else` statement easy and keeps it all on  one line
+    - uses `?` and `:` for `if` and `else` respectively
+    - analyzes code left of the `?` if, if `true` it executes if `false` it moves to the `:` else and executes that
+  - *Case Statement*
+    - `case`, `when`, `else`, `end`
+    - you first define a `case` and then evaluate the value of the case and what operation to complete if that `case` is true.
+    - [case_statement.rb](case_statement.rb) is our playground for this one
+    - this case statement is a lot like an `if`, `elsif`, `else` statement but provides a nice format for multiple `elsif`'s and doesn't need to keep redefining what variable is being evaluated
+    - answer can be saved to a variable
+    - if `case` isn't handed an argument, you can put argument on the `when` lines
+  - *True and False*
+    - in Ruby every expression evaluates to `true` when used in flow control, except for `false` and `nil`
+## *Summary*
+  - [string_length_10.rb](string_length_10.rb) checks if a string is at least 10 characters
+  - [number_checker.rb](number_checker.rb) checks if a number given by the user is between 0 and 50, 51 and 100 or 100+
