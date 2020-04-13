@@ -49,4 +49,7 @@
       - can cross some scope boundaries but not all of them
     - Local Variables
       - `var = 'I muse be passed around to cross scope boundaries'`
-      - 
+## - Summary
+  - Examples
+    - [age.rb](age.rb)
+    - [name.rb](name.rb)
