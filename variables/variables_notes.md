@@ -1,2 +1,52 @@
 # **Variables**
 ## - *What is a Variable?*
+  - Variable are used to store information to be referenced and manipulated in a computer program
+  - Allow for labelling data with a descriptive name
+  - Think of them as containers for data
+  - *Assigning Value to Variables*
+    - Naming is hard
+      - Make sure it's *accurately descriptive* and *understandable to other readers*
+    - Assign with `=` symbol
+      - `first_name = 'joe'`
+      - don't confuse assignment `=` with equality operator `==`
+    - variables point to values in memory and are not deeply linked to each other
+      - for example if we set `a = 4` and then `b = a`, `b` will be 4 even if we reassign `a` a different value
+    - *Getting Data from a User*
+      - `gets` method
+        - this waits for user to 1) type in information and 2) hit the enter key.
+        - `.chomp` is useful with `gets` to remove the carriage return characters that are created when the user hits enter
+  - *Variable Scope*
+    - scope is defined by where the variable is initialized
+    - variable scope is defined by a *block*
+    - *block* is a piece of code following a method invocation, usually delimited by either curly braces `{}` or `do/end`. (not all `do/end` pairs imply a block)
+    - **inner scope can access variables initialized in an outer scope, but not vice versa**
+  - *Types of Variables*
+    - Five Types: Constants, global variables, class variables, instance variables, and local variables.
+    -  Constants
+      - `VARIABLE = 'an unchanging value'`
+      - declared by capitalizing every letter in  the variable's name, per Ruby convention.
+      - store data that never needs to change
+      - Ruby allows for the value to change (but throws a warning and shouldn't be done)
+      - cannot be declared in method definitions
+      - are available throughout your application's scopes
+    - Global Variables
+      - `$var = 'some value or whatever'`
+      - are declared by starting the variable name with the dollar sign (`$`)
+      - are available throughout your entire app
+      - override all scope boundaries
+      - *can cause unexpected complications and are generally avoided*
+    - Class Variables
+      - `@@variable = 0`
+      - declared with two `@`'s
+      - accessible by instances of your class as well as the class itself
+      - *when you need to delcare a variable that is related to a class, but each  instance of that class does no need its own value for this variable*
+      - initialized at the class level, outside of any method definitions
+      - can be altered using class or instance method definitions
+    - Instance Variables
+      - `@var = 'available throughout current instance of class'`
+      - declared with one `@`
+      - available throughout the current instance of the parent class
+      - can cross some scope boundaries but not all of them
+    - Local Variables
+      - `var = 'I muse be passed around to cross scope boundaries'`
+      - 
