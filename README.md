@@ -17,7 +17,7 @@ The exercise of taking notes in Markdown will encourage learning of markdown lan
     - [mutate.rb](/4_methods/mutate.rb)
     - [return.rb](/4_methods/return.rb)
     - [scream.rb](/4_methods/scream.rb)
-5. [Flow Control](/5_flow_control/flow_control.md)
+5. [Flow Control](/5_flow_control/flow_control_notes.md)
     - [case_statement.rb](/5_flow_control/case_statement.rb)
     - [conditional.rb](/5_flow_control/conditional.rb)
     - [number_checker.rb](/5_flow_control/number_checker.rb)
