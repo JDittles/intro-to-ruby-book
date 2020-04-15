@@ -8,7 +8,7 @@ The exercise of taking notes in Markdown will encourage learning of markdown lan
 ## Table of Contents
 1. [Introduction](/1_introduction/intro_notes.md)
 2. [The Basics](/2_the_basics/basics_notes.md)
-3. [Variables](/3_variables/variable_notes.md)
+3. [Variables](/3_variables/variables_notes.md)
     - [age.rb](/3_variables/age.rb)
     - [name.rb](/3_variables/name.rb)
 4. [Methods](/4_methods/methods_notes.md)
@@ -32,7 +32,7 @@ The exercise of taking notes in Markdown will encourage learning of markdown lan
     - [loop_example.rb](/6_loops_and_iterators/loop_example.rb)
     - [loop_till_stop.rb](/6_loops_and_iterators/loop_till_stop.rb)
     - [perform_again.rb](/6_loops_and_iterators/perform_again.rb)
-    [practice_each.rb](/6_loops_and_iterators/practice_each.rb)
+    - [practice_each.rb](/6_loops_and_iterators/practice_each.rb)
     - [recursion_countdown.rb](/6_loops_and_iterators/recursion_countdown.rb)
     - [useful_loop.rb](/6_loops_and_iterators/useful_loop.rb)
 7. [Arrays](/7_arrays/arrays_notes.md)
