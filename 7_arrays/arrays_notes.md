@@ -4,7 +4,7 @@
   - define an array by placing a list of elements between brackets `[]`
   - `.first` and `.last` are array methods that return the first and last elements respectively
   - we can also access elements in an array by their *index*
-    - indices start at `0` in computing, so the their element of an array would be at `array[2]`
+    - indices start at `0` in computing, so the third element of an array would be at `array[2]`
   - *Modifying Arrays*
     - `.pop` is a method that mutates the caller--meaning it changes the array we call it on. It removes the last element from an array (and returns it)
     - `.push()` is a method that also mutates the caller, it's used to add elements to the end of an array
